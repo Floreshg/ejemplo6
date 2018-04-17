@@ -1,0 +1,62 @@
+.conTitulo {
+    /*PADRE OCUPA TODO EL ESPACIO*/
+    position: absolute;
+    /*PARA QUE */
+    z-index: 2;
+    /*para que salga encima*/
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+.titbaner {
+
+    display: inline-block;
+    /*SE AJUSTA AL TEXTO*/
+    border: 2px solid #fff;
+    text-align: center;
+    background: #00000063;
+}
+
+.textcolor {
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'satisfy';
+}
+
+
+
+@media (min-width: 768px){
+  
+.titbaner {
+
+    border: 2px solid #fff;
+    width: auto;
+    height: auto;
+     margin-top: 10%;
+} 
+    titHome h1{
+        margin-top: 0;
+        
+    }
+}
+
+
+@media (min-width: 992px){
+    h1{
+        font-size: 48px;
+    }
+    
+    
+    .titbaner{
+        margin-top: 15%;
+        p{
+            font-weight: 300;
+            font-size: 23px;
+        }
+    }
+}

@@ -1,0 +1,130 @@
+.cursos {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        font-weight: 300;
+        font-size: 25px;
+        padding: 50px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    h2:hover{
+        background: #000000c7;
+        color:#fff;
+        
+    }
+    
+
+}
+
+
+@media (min-width:768px){
+    .cursos {
+        h2{
+            font-size: 25px;
+            padding: 80px 0;
+        }
+    }
+}
+
+
+@media (min-width:1200px){
+    .cursos {
+        h2{
+            padding: 130px 0;
+        }
+    }
+}
+
+
+.texto-principal{
+   
+    h2{
+          text-align: center;
+         font-family: satisfy; 
+         font-size: 38px;
+        
+        &:after{
+            content: "";
+    display: block;
+    border-top: 1px solid #000;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+        }
+    }
+    
+    
+.texto-2{
+ 
+        margin: 0 auto;
+}
+
+    }
+
+
+.color-back{
+        background: #ffdee0;
+    padding: 58px;
+}
+
+
+.articulo{
+    img{
+        width: 100%;
+    }
+    span{
+        color:$naranja;
+    }
+}
+
+
+
+
+@media (min-width:768px){
+    .texto-2 {
+       width: 90%;
+        
+    }
+    
+    
+}
+
+
+
+@media (min-width:992px){
+    .texto-2 {
+       width: 90%;
+        
+    }
+    
+    
+}
+
+
+
+@media (min-width:1200px){
+    .texto-2 {
+         width: 50%;
+   
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
